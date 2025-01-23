@@ -1,0 +1,5 @@
+https://youtu.be/xRXHQlqA3Ak?si=Axdn_F4OkQ_u8D-A&t=2371
+
+mongodb://127.0.0.1/LeiferMendez
+
+mongodb+srv://suave:Knows-1994@cluster0.rqsdl.mongodb.net/dbapi?retryWrites=true&w=majority&appName=Cluster0

@@ -1,0 +1,6 @@
+limita la informacion de objeto que entra
+
+ejemplo
+solo quiero que entre nombre
+pero mandan mas datos
+---> solo recibire lo que yo pedi
