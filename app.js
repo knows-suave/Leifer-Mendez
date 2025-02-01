@@ -1,17 +1,18 @@
 /**
- * @entra {dbConnect, loggerStream}
- * @entra {todas las rutas}
- * dbConect conecta a la base de datos
- * loggerStream conecta al registro de errores
- * @sale {para el usuario en navegador}
- */
+@entra
+    todas las rutas
+    dbConect conecta a la base de datos
+    loggerStream conecta al registro web de errores
+@sale
+    para el usuario en navegador
+*/
 
 require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const morganBody = require('morgan-body')
 const dbConnect = require('./config/mongo.js')
-const { body } = require('express-validator')
+// const { body } = require('express-validator')
 const { loggerStream } = require('./utils/handleLogger.js')
 
 const app = express()

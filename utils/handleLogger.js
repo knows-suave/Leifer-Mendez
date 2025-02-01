@@ -1,6 +1,10 @@
 /**
-*@entra {url de slack}
-*@sale {es_una_nota_para_todos_los_programadores}
+@_entra__________________________
+_ _ _ url de slack
+@_sale___________________________
+_ _ _ la conexion a slack
+@_NOTA___________________________
+_ _ _ envia los errores al chat de slack que es similar a discord
 */
 
 const { IncomingWebhook } = require('@slack/webhook')

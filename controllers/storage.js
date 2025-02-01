@@ -1,3 +1,20 @@
+/**
+@_QUE_HACE_ESTE_ARCHIVO_______________________________________________
+        controlador :   almacena imagenes y lo anexa al registro
+@_REQUIRE_______entrada_de_archivos___________________________________
+_ _ _ storageModel  :   modelo
+_ _ _ .env
+@_EXPORTS_______salida_de_modulos_____________________________________
+        getItems    :   obtener items
+        getItem     :   obtener un item
+        createItems :   crear un item
+        updateItems :   actualizar un item
+        deleteItems :   eliminar un item
+@_N_O_T_A_____________________________________________________________
+_ _ _ NOTA
+*/
+
+
 const fs = require('fs')
 const { matchedData } = require('express-validator')
 const { storageModel } = require('../models')

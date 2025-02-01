@@ -1,3 +1,15 @@
+/**
+@_QUE_HACE_ESTE_ARCHIVO_______________________________________________
+        valida los datos
+@_REQUIRE_______entrada_de_archivos___________________________________
+        handleValidador :   confirma la validacion
+@_EXPORTS_______salida_de_modulos_____________________________________
+        validatorCreateItem :   datos necesarios
+        validatorGetItem    :   datos necesarios
+@_N_O_T_A_____________________________________________________________
+        
+*/
+
 const { check } = require('express-validator')
 const validateResults = require('../utils/handleValidator')
 

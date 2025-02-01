@@ -1,3 +1,13 @@
+/**
+@_entra__________________________
+_ _ _ archivo handleValidator, contiene la parte que hace funcionar el check
+@_sale___________________________
+_ _ _ la aceptacion o el error del validador
+@_NOTA___________________________
+_ _ _ middleware que prohibe la informacion que no solicita el sistema
+        check, ignora la informacion que no cumple los requisitos
+*/
+
 const { check } = require('express-validator')
 const validateResults = require('../utils/handleValidator')
 

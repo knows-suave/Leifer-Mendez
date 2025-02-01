@@ -1,6 +1,10 @@
 /**
- * @entra {url de mongo}
- * @sale {conecion a mongo}
+@entra_______________
+    url de mongo
+@sale________________
+    conecion a mongo
+@nota________________
+    conecta a la base de datos
  */
 
 const mongoose = require('mongoose')

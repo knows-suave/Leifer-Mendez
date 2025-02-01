@@ -1,3 +1,18 @@
+/**
+@_QUE_HACE_ESTE_ARCHIVO_______________________________________________
+        es la ruta de los archivos
+    
+@_REQUIRE_______entrada_de_archivos___________________________________
+        tracks  :   validador de datos
+        tracks  :   controlador         :       crea, actualiza, elimina, obtiene registro
+        session :   authMiddleware      :       verificar token
+        rol     :   checkRol            :       
+@_EXPORTS_______salida_de_modulos_____________________________________
+        
+@_N_O_T_A_____________________________________________________________
+        
+*/
+
 const express = require('express')
 const { getItem, getItems, createItems, updateItems, deleteItems } = require('../controllers/tracks')
 const { validatorCreateItem, validatorGetItem } = require('../validators/tracks')

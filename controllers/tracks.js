@@ -1,3 +1,19 @@
+/**
+@_QUE_HACE_ESTE_ARCHIVO_______________________________________________
+        contiene modulos fundamentales para controlar items
+@_REQUIRE_______entrada_de_archivos___________________________________
+        tracksModel :   model
+        handleError :   
+@_EXPORTS_______salida_de_modulos_____________________________________
+        getItems    :   obtener items
+        getItem     :   obtener 1 item
+        createItems :   crear item
+        updateItems :   actualizar item
+        deleteItems :   eliminar item
+@_N_O_T_A_____________________________________________________________
+        
+*/
+
 const { matchedData } = require('express-validator')
 const { tracksModel } = require('../models')
 const { handleHttpError } = require('../utils/handleError')

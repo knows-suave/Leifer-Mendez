@@ -1,3 +1,14 @@
+/**
+@_entrada_de_archivos_____________________
+_ _ _ ninguno
+@_salida_de_modulos_o_funciones_______________________
+_ _ _ encriptar contraseña  :   encrypt(contraseña)
+_ _ _ comparar contraseñas  :   compare(contraseña,contraseñaEncryptada)
+_ _ _ 
+@_NOTA___________________________
+_ _ _ todo lo de contraseñas
+*/
+
 const bcryptjs = require('bcryptjs')
 
 //encryptar

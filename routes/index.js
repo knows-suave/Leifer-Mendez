@@ -1,3 +1,12 @@
+/**
+@_entra__________________________
+_ _ _ archivos de rutas
+@_sale___________________________
+_ _ _ url de las rutas
+@_NOTA___________________________
+_ _ _ genera url de loos archivos
+*/
+
 const express = require('express')
 const router = express.Router()
 const fs = require('fs')

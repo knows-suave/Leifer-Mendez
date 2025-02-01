@@ -1,3 +1,16 @@
+/**
+@_QUE_HACE_ESTE_ARCHIVO_______________________________________________
+        verifica el token
+@_REQUIRE_______entrada_de_archivos___________________________________
+        usersModel  :   es el modelo
+        handleError :   handleHttpError :   manejador de errores html
+        handleJWT   :   varifyToken
+@_EXPORTS_______salida_de_modulos_____________________________________
+        authMiddleware  :   verifica token
+@_N_O_T_A_____________________________________________________________
+        
+*/
+
 const { usersModel } = require('../models')
 const { handleHttpError } = require('../utils/handleError')
 const { verifyToken } = require('../utils/handleJWT')

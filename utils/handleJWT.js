@@ -1,3 +1,16 @@
+/**
+@_entra__________________________
+_ _ _ codigo nuclear
+_ _ _ 
+_ _ _ 
+@_sale___________________________
+_ _ _ creacion de token
+_ _ _ verificacion de token
+_ _ _ 
+@_NOTA___________________________
+_ _ _ todo lo que es Token
+*/
+
 const jwt = require('jsonwebtoken')
 const JWT_SECRET = process.env.JWT_SECRET
 

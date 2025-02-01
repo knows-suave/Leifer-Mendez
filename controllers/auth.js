@@ -1,3 +1,15 @@
+/**
+@_entra__________________________
+_ _ _ archivo de los token
+_ _ _ archivos que comparan contraseña
+_ _ _ archivo de los modelos
+@_sale___________________________
+_ _ _ funcion de registro de usuario 
+_ _ _ funcion de login de usuario
+@_NOTA___________________________
+_ _ _ login y registro de usuario
+*/
+
 const { matchedData } = require("express-validator")
 const { tokenSign } = require("../utils/handleJWT")
 const { encrypt, compare } = require("../utils/handlePassword")

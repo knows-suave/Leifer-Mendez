@@ -1,3 +1,13 @@
+/**
+ * confirma que los datos son correctos
+@_entra__________________________
+_ _ _ nada
+@_sale___________________________
+_ _ _ la aprovacion del check de express-validator
+@_NOTA___________________________
+_ _ _ complemento final de express-validator
+*/
+
 const { validationResult } = require("express-validator")
 
 const validateResults = (req, res, next) => {

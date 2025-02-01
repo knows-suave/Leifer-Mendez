@@ -1,3 +1,15 @@
+/**
+@_QUE_HACE_ESTE_ARCHIVO_______________________________________________
+        comprueba el tipo de usuario y acceso
+@_REQUIRE_______entrada_de_archivos___________________________________
+        
+@_EXPORTS_______salida_de_modulos_____________________________________
+        
+@_N_O_T_A_____________________________________________________________
+        
+*/
+
+
 const { handleHttpError } = require("../utils/handleError")
 
 /**
